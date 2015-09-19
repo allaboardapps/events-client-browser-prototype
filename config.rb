@@ -23,6 +23,7 @@
 # with_layout :admin do
 #   page "/admin/*"
 # end
+page "/favorites.html", layout: "secondary"
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
